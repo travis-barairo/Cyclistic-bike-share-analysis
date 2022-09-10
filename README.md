@@ -62,3 +62,22 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 4. Now that everything was starting to fall in place for the next step, the visualization process, I had some final casts that I needed to make for the data to play nicely with Tableau. Within the travel_time column, the data type in this column was a datetime. Since I would be exporting this final csv to Tableau, I know that I would have troubles aggregating this column unless I did a data type recasting. using the numpy method of timedelta64, I casted the travel_time data from a datetime to a float value.
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis4.JPG)
 
+5. Before I started working on the visualization I simply converted the data frame into a csv using pandas to_csv method. This file would be what I would upload into tableau to help create a new visualization.
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis5.JPG)
+*please note: I hashed out data_3.to_csv('final_divvy_tripdata_20220829.csv') because I had run this script a few times and every time I opened it on VSC it would continuously make new files which would take a long time.*
+
+6. Once the final CSV was created, I wanted to also take a look at some pivot tables and averages for the data before I went into Tableau and started creating a visualization. To answer the first subquestion, I took a look at the data grouped by member type compared to the mean final travel time.
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis6.JPG)
+With this pivot table in place we can see that on average, casual members have a longer travel time.
+
+7. Nextly taking a quick look at the data grouped by member type and using the mean travel distance we get a similar result:
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis7.JPG) 
+As expected, since the travel time is, on average, longer for casual users than members we can expect the distance for the trip to be overall larger as well.
+
+8. Lastly, before jumping into visualizing, we needed to see the bike preferences of each member category. Grouping the data by bike_type and member_type, then taking the count of member_type we return a pivot that looks like this:
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis8.JPG)
+From this we can see a few things. The amount of casual riders who use classic bikes lower than the amount of membership users using the classic bikes. Additionally we see that membership users dont ride docked bikes except for one trip within the 12 months of data we are looking at. With all these tables contextualized we can move forward to visualizing the data to see whether or not our assumptions are supported or not.
+
+### Data Visualization
+##### The [dashboard](https://public.tableau.com/app/profile/travis.miguel.barairo/viz/divvy_trip_data_final/Dashboard1) I created on Tableau public summarizes all the visualizations I created for this project, but keep reading to take a one by one look at each metric.
+
