@@ -83,3 +83,12 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 ### Data Visualization
 ##### The [dashboard](https://public.tableau.com/app/profile/travis.miguel.barairo/viz/divvy_trip_data_final/Dashboard1) I created on Tableau public summarizes all the visualizations I created for this project, but keep reading to take a one by one look at each metric.
 
+##### Sub Question 1: Between casuals and members, how long do the rides usually last (in minutes)?
+
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis1.JPG)
+
+After uploading the data into tableau I plotted the average travel time in minutes against the type of bike used, grouped by member type. As a result you can see that across the board, casual members are users who take longer timed trips on average than membership users. Additionally the preference for docked bikes becomes more apparent for casual users when compared to members.
+* Key Insights
+  + For a trip using a classic bike, we can expect casual users to spend two times as long travelling than members
+  + For a trip using a docked bike, we can assume that only casual members prefer it due to the fact that those in the members category who used the docked bike only accounted for one data point.
+  + For a trip using an electrical bike, we can predict that the difference in time travelled would be marginal but slightly higher for casuals.
