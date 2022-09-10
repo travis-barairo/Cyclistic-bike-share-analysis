@@ -28,10 +28,10 @@ Within the CSV files, all of the data was organized into several columns as foll
 * end_lng ; float
 * member_casual ; string
 
-### Data Cleaning:
+### Data Cleaning/Analysis:
 
 ##### Processing Plan:
 Before analysis can begin, I had to ensure that the data was cleaned and organized before I could start transforming it. In order to achieve this, I had a six step plan. First, I would combine all 12 csv files into one data frame. Next, I would change any null values in float columns to zero to prevent any errors from occuring in calculations later. Once the data was cleaned, I would aggregate the data into new calculated columns. Once the columns were finished and calulated, I would have to export the final data frame into a csv whereby I can upload it to Tableau and perform some visualization of the data. Lastly I would use tableau to generate visualization that will support and drive my findings.  
 
 ##### Documentation of cleaning data
-1. The first task to tackle was to combine all 12 months of data into a single data frame in python.
+1. The first task to tackle was to combine all 12 months of data into a single data frame in python. To do this we simply created a variable that lists all the files needed, and concatenated all the csv's read into a data frame, iterated over all the files within the list.
