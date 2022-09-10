@@ -37,4 +37,10 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 1. The first task to tackle was to combine all 12 months of data into a single data frame in python. To do this we simply created a variable that lists all the files needed, and concatenated all the csv's read into a data frame, iterated over all the files within the list.
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean1.JPG)
 2. After combining all the csv's into one data frame, we then looked at the columns and determined that five of the columns won't be useful in this analysis. Once these columns were identified, all we had to do was simply drop the columns using the drop method.
-![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean2.JPG) 
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean2.JPG)
+3. Once all the uneeded columns were dropped, I renamed the usable columns to those which made more sense.
+* rideable_type ; bike_type
+* member_casual ; member_type
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean3.JPG)
+4. Lastly, after our columns and workspace is set up, we identified prior to starting analysis that there were some N/A values in the loat and long columns which would interfere with our calculations later on. In order to fix this, we sumply used the fillna method to replace any na values with an integer value of zero.
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean4.JPG)
