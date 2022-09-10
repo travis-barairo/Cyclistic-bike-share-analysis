@@ -35,6 +35,6 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 
 ##### Documentation of cleaning data
 1. The first task to tackle was to combine all 12 months of data into a single data frame in python. To do this we simply created a variable that lists all the files needed, and concatenated all the csv's read into a data frame, iterated over all the files within the list.
-![]([Cyclistic-bike-share-analysis/images/Clean1.JPG](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean1.JPG)
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean1.JPG)
 2. After combining all the csv's into one data frame, we then looked at the columns and determined that five of the columns won't be useful in this analysis. Once these columns were identified, all we had to do was simply drop the columns using the drop method.
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Clean2.JPG) 
