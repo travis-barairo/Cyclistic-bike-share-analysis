@@ -72,10 +72,12 @@ With this pivot table in place we can see that on average, casual members have a
 
 7. Nextly taking a quick look at the data grouped by member type and using the mean travel distance we get a similar result:
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis7.JPG) 
+
 As expected, since the travel time is, on average, longer for casual users than members we can expect the distance for the trip to be overall larger as well.
 
 8. Lastly, before jumping into visualizing, we needed to see the bike preferences of each member category. Grouping the data by bike_type and member_type, then taking the count of member_type we return a pivot that looks like this:
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis8.JPG)
+
 From this we can see a few things. The amount of casual riders who use classic bikes lower than the amount of membership users using the classic bikes. Additionally we see that membership users dont ride docked bikes except for one trip within the 12 months of data we are looking at. With all these tables contextualized we can move forward to visualizing the data to see whether or not our assumptions are supported or not.
 
 ### Data Visualization
