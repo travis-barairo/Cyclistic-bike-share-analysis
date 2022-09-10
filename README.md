@@ -68,11 +68,11 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 
 6. Once the final CSV was created, I wanted to also take a look at some pivot tables and averages for the data before I went into Tableau and started creating a visualization. To answer the first subquestion, I took a look at the data grouped by member type compared to the mean final travel time.
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis6.JPG)
-With this pivot table in place we can see that on average, casual members have a longer travel time.
+  With this pivot table in place we can see that on average, casual members have a longer travel time.
 
 7. Nextly taking a quick look at the data grouped by member type and using the mean travel distance we get a similar result:
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis7.JPG) 
-As expected, since the travel time is, on average, longer for casual users than members we can expect the distance for the trip to be overall larger as well.
+  As expected, since the travel time is, on average, longer for casual users than members we can expect the distance for the trip to be overall larger as well.
 
 8. Lastly, before jumping into visualizing, we needed to see the bike preferences of each member category. Grouping the data by bike_type and member_type, then taking the count of member_type we return a pivot that looks like this:
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Analysis8.JPG)
