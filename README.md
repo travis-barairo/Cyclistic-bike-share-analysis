@@ -89,7 +89,7 @@ Before analysis can begin, I had to ensure that the data was cleaned and organiz
 
 After uploading the data into tableau I plotted the average travel time in minutes against the type of bike used, grouped by member type. As a result you can see that across the board, casual members are users who take longer timed trips on average than membership users. Additionally the preference for docked bikes becomes more apparent for casual users when compared to members.
 * Key Insights
-  + For a trip using a classic bike, we can expect casual users to spend two times as long travelling than members
+  + **For a trip using a classic bike, we can expect casual users to spend two times as long travelling than members**
   + For a trip using a docked bike, we can assume that only casual members prefer it due to the fact that those in the members category who used the docked bike only accounted for one data point.
   + For a trip using an electrical bike, we can predict that the difference in time travelled would be marginal but slightly higher for casuals.
 
@@ -102,7 +102,7 @@ As one can see there are a few key points to be mentioned here:
 * Key Insights
   + Overall casual users travel further distances than the membership users. This makes sense due to their average overall time being higher. Longer the distance longer the time.
   + Using the previous sub questions numbers, we can see an interesting phenomenon whereby the casual members who ride on a classic bike travel a farther distance in a shorter amount of time than those casual users who ride on a docked bike.
-  + To delve further to this point I decided to compare the ratio of average time to average distance between not only casuals and members but to compare them within their own member types grouped by their choice of bike.
+  + **To delve further to this point I decided to compare the ratio of average time to average distance between not only casuals and members but to compare them within their own member types grouped by their choice of bike.**
 
 
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis3a.JPG)
