@@ -1,7 +1,7 @@
-##Data Source:
+## Data Source:
 click this [link](https://divvy-tripdata.s3.amazonaws.com/index.html) to reach the index where the data is derived from.  
 
-##Data files used:
+## Data files used:
 For this case study, I used the following files:
 * "202101-divvy-tripdata.zip"
 * "202102-divvy-tripdata.zip"
