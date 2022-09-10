@@ -101,8 +101,13 @@ Similarly to the previous sub question, I uploaded the data and grouped by bike 
 As one can see there are a few key points to be mentioned here:
 * Key Insights
   + Overall casual users travel further distances than the membership users. This makes sense due to their average overall time being higher. Longer the distance longer the time.
-  + Using the previous sub questions numbers, the proportion of average distance/average time, we can se an interesting phenomenon:
-    +sfsfdsfdf
+  + Using the previous sub questions numbers, we can see an interesting phenomenon whereby the casual members who ride on a classic bike travel a farther distance in a shorter amount of time than those casual users who ride on a docked bike.
+  + To delve further to this point I decided to compare the ratio of average time to average distance between not only casuals and members but to compare them within their own member types grouped by their choice of bike.
+
+
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis3a.JPG)
+
+
 
 
 
