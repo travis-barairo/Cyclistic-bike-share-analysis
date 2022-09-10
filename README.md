@@ -92,3 +92,24 @@ After uploading the data into tableau I plotted the average travel time in minut
   + For a trip using a classic bike, we can expect casual users to spend two times as long travelling than members
   + For a trip using a docked bike, we can assume that only casual members prefer it due to the fact that those in the members category who used the docked bike only accounted for one data point.
   + For a trip using an electrical bike, we can predict that the difference in time travelled would be marginal but slightly higher for casuals.
+
+##### SubQuestion 2: How far do casual users travel in comparison to members (in miles)?
+
+Similarly to the previous sub question, I uploaded the data and grouped by bike type and as well as member type. Here is the chart:
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis2.JPG)
+
+As one can see there are a few key points to be mentioned here:
+* Key Insights
+  + Overall casual users travel further distances than the membership users. This makes sense due to their average overall time being higher. Longer the distance longer the time.
+  + Using the previous sub questions numbers, the proportion of average distance/average time, we can se an interesting phenomenon:
+    +sfsfdsfdf
+
+
+
+
+
+
+
+
+
+
