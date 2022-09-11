@@ -104,12 +104,16 @@ As one can see there are a few key points to be mentioned here:
   + Using the previous sub questions numbers, we can see an interesting phenomenon whereby the casual members who ride on a classic bike travel a farther distance in a shorter amount of time than those casual users who ride on a docked bike.
   + **To delve further to this point I decided to compare the ratio of average time to average distance between not only casuals and members but to compare them within their own member types grouped by their choice of bike.**
 
-
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis3a.JPG)
 
+Comparing the casual points (yellow), from this chart we can see a few Key Insights:
+* classic bike casual users travel at a rate of 0.551 miles per hour whereas the docked bike casual users travel at a rate of 0.082 mph.
+  + This indicates to us that classic bike casual members are more athletic and proficient in riding the bike
+  + This could mean that classic casual users are avid bikers, whereas casual users using docked bikes and electric bikes are using them more for commuting/getting from point A to B without any regard for fitness.
+* electric bike casual users and docked bike casual users have similar speeds sitting at a range of 0.08 - 0.1 mph.
 
-
-
+Additionally comparing casual (yellow) and membership (purple) users' speeds shows indicates to us that:
+* Overall, membership users are more avid bike riders who can go faster than the casual user.
 
 
 
