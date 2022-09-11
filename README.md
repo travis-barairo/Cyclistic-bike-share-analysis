@@ -93,7 +93,7 @@ After uploading the data into tableau I plotted the average travel time in minut
   + For a trip using a docked bike, we can assume that only casual members prefer it due to the fact that those in the members category who used the docked bike only accounted for one data point.
   + For a trip using an electrical bike, we can predict that the difference in time travelled would be marginal but slightly higher for casuals.
 
-##### SubQuestion 2: How far do casual users travel in comparison to members (in miles)?
+##### Sub Question 2: How far do casual users travel in comparison to members (in miles)?
 
 Similarly to the previous sub question, I uploaded the data and grouped by bike type and as well as member type. Here is the chart:
 ![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis2.JPG)
@@ -112,13 +112,20 @@ Comparing the casual points (yellow), from this chart we can see a few Key Insig
   + This could mean that classic casual users are avid bikers, whereas casual users using docked bikes and electric bikes are using them more for commuting/getting from point A to B without any regard for fitness.
 * electric bike casual users and docked bike casual users have similar speeds sitting at a range of 0.08 - 0.1 mph.
 
-Additionally comparing casual (yellow) and membership (purple) users' speeds shows indicates to us that:
+Additionally comparing casual (yellow) and membership (purple) users' speeds indicates to us that:
 * Overall, membership users are more avid bike riders who can go faster than the casual user.
 
+##### Sub Question 3: What type of bikes do casual users prefer compared to members?
 
 
+Converting the pivot table shown in python to a tableau visualization produces an interesting result. By using the count of bike types selected by trip and grouping them bey the member type we generate a visualization like this:
+![](https://github.com/travis-barairo/Cyclistic-bike-share-analysis/blob/main/images/Vis3b.JPG)
 
-
+At first glance the chart may look strange, but there are a few key notes to look at:
+* Looking at the docked bike type we can see that the majority of trip data in this data set that used a docked bike was primarily a casual member.
+  + This supports our previous finding that the casual docked bike user may be someone more focused on commuting to and from placed due to the fact that docked bikes must be picked up and returned to the stations. We can then assume that these users are commuting from station to a station near their destination thus further backing up this idea that they aren't die hard bikers, but rather just your average commuter.
+* When comparing the docked bike members to the electric bike members we want to figure out the best way to influence electric bike users to switch to a membership.
+  + From the previous chart we know that docked bike and electric bike casual users are most likely people who use the platform to commute to destinations. The distinguishing factor between these two categories is that docked bikes must be returned to a set station, whereas electric bikes can be picked up anywhere that's nearby and dropped off wherever the user decides. This means that those who use electric bikes to commute from the casual users group prefer the flexibility of pick-up and drop-off.
 
 
 
