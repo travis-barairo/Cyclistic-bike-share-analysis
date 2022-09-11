@@ -2,7 +2,7 @@
 ## Google Data Certification Capstone Project: Analyzing 1 Year of Trip Data  
 
 ### Business Task:
-Cyclistic, a bike sharing company is looking to maximize the number of annual members that are signed up for their membership program. In order to accomplish this, Moreno and executive stakeholders need to understand the differences between casual riders and annual members.  
+Cyclistic, a bike sharing company is looking to maximize the number of annual members that are signed up for their membership program. In order to accomplish this, Moreno and executive stakeholders need to understand the differences between casual riders and annual members to better target their marketing campaigns.  
 
 ### Questions to answer:
 * Principle question: What are the differences between casual riders and members?
@@ -128,4 +128,25 @@ At first glance the chart may look strange, but there are a few key notes to loo
   + From the previous chart we know that docked bike and electric bike casual users are most likely people who use the platform to commute to destinations. The distinguishing factor between these two categories is that docked bikes must be returned to a set station, whereas electric bikes can be picked up anywhere that's nearby and dropped off wherever the user decides. This means that those who use electric bikes to commute from the casual users group prefer the flexibility of pick-up and drop-off.
 
 
+### Insights and Recommendations:
 
+#### User Differences
+The primary focus of this analysis was to understand the differences between the casual users and membership riders of the Cyclistic platform. After gathering, cleaning, analyzing, and visualizing the data, we can draw these conclusions:
+* Classic Bike Casual Users - avid bike riders who want to just pick a bike up and go
+* Electric Bike Casual Users - commuters who like the flexibility and ease of using an electric bike
+* Docked Bike Casual Users - commuters who work near a station or will do multiple commutes to get to their destination.
+* Members are a group of commuters and avid bike users who don't travel far destinations, and inversely casual users commute very far (relatively) to get to their destinations.
+
+#### Recommendations
+In order to convert the most amount of casual users to annual membership users there are a few key themes that the marketing campaign must capitalize on which will influence membership conversion:
+* Marketing campaign should highlight the vast network of docked stations, but introduce stations that only members can access which are closer to high volume locations.
+  + Targetting casual users who prefer docked bikes to switching to a membership. If they have access to these stations their commute will be easier.
+
+* Advertise increased durability and sportyness of member exclusive classic bikes.
+  + Targetting casual users who prefer classic bikes to switching to a membership. Playing towards the idea that these users are more sporty and prefer to take longer commutes on top of being fit, having membership exclusive classic bikes will make them want access to it.
+
+* Advertise member exclusive electric bikes having longer battery charge.
+  + Targetting casual users who prefer electric bikes to switching to a membership. The key difference between this group and the classic bike casuals is that the electric bike casual users seem to prefer having the electric motor do the work for them and having a smooth ride. Restricting access to longer battery life electric bikes to members only will target this group of people and influence them to switching.
+
+* Focus marketing campaign on promoting cheaper annual fees for users who have a commute further than .025 miles.
+  + Targetting overall casual users since we know that they have, on average, longer commute distances than current members. By advertising for lower fees based on commute distance, we may be able to influence them to switching based on the idea that they're getting a good deal.
